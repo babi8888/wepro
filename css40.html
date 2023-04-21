@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<link rel="stylesheet" href="css/submenu_new.css">
+	<script src="https://kit.fontawesome.com/51d281f74f.js" crossorigin="anonymous"></script>
+	<style>
+		body{
+			background-image: url(image/flower1.jpg);
+			background-size: cover;
+			/*background-repeat: repeat-x;
+			background-repeat: repeat-y;*/
+			background-repeat: no-repeat;
+			/*background-repeat: space;
+			/*background-position: 350px 200px;*/
+			background-attachment: fixed;
+			/*background-attachment: scroll;
+			background-position: 100px 150px,top right;
+			background-color: gold;*/
+		}
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.box{
+			display:inline-block;
+
+		}
+		ul{
+			list-style: none;
+			display: inline-block;
+
+		}
+		ul li{
+			width: 232px;
+			height:75px;
+			line-height:70px;
+			float: left;
+			background: #245953;
+			text-align: center;
+			border:2px solid white;
+/*			display:inline-block;*/
+
+
+		}
+		ul li a{
+			text-decoration: none;
+			background: inherit;
+			font-size: 20px;
+			color: white;
+			display: block;
+
+
+		}
+
+		ul li a:hover{
+			background:pink;
+			
+		}
+		
+		ul li ul li{
+			display:none;
+/*			margin: -20px;*/
+		}
+		ul li:hover ul li{
+			display: block;
+		}
+		#search{
+			background-image: url(image/search.jpg);
+			background-position: right;
+			background-size: 20px 20px;
+			background-repeat: no-repeat;
+			padding:10px;
+			border-radius: 20px;
+/*			margin: 20px auto;*/
+		}
+		.search{
+			float: right;
+			margin:20px 10px;
+			/*background-color: #245953;
+			width: 185px;
+			height:75px;
+*/
+
+		}
+		
+	</style>
+	
+</head>
+<body>
+
+	<div class="box">
+	 <img src="image/anishree.jpg" height="80" width="150">
+	 	
+	 </div>
+	<ul>
+		<li><a href="babi1.html">Home</a></li>
+		<li><a href="babi2.html">About us</a></li>
+		<li><a href="babi3.html">training&nbsp;<i class="fa-sharp fa-solid fa-caret-down"></i></i></a>
+			<ul>
+				<li><a href="#">java</a></li>
+				<li><a href="#">php</a></li>
+				<li><a href="#">wpd</a></li>
+			</ul>
+		</li>
+		<li><a href="babi4.html">Gallery&nbsp;<i class="fa-sharp fa-solid fa-caret-down"></i></a>
+			<ul>
+				<li><a href="#">photo</a></li>
+				<li><a href="#">video</a></li>
+				<li><a href="#">img</a></li>
+			</ul>
+		</li>
+		<li><a href="babi5.html">contact us</a></li>
+		
+	</ul>
+	<div class="search">
+		
+	 <input type="text" name="search" id="search"placeholder="search";> 
+	
+</div>
+	
+</body>
+</html>
